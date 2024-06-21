@@ -8,7 +8,7 @@
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #eb0062;
+  --color-primary: #EB00D8;
   --color-secondary: #37373f;
 }
 
@@ -20,6 +20,10 @@
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
                       Common css start
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#titulos {
+  font-size: 48px;
+  font-family: var(--font-primary);
+}
 p span#redes{
   font-size: 25px;
   font-weight: 1000;
@@ -71,7 +75,7 @@ section {
 }
 
 header#header {
-  background-color: rgb(0, 229, 237);
+  background-color: #9CDAD7;
 }
 .section-bg {
   background-color: #eee;
@@ -376,7 +380,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: #7f7f90;
+    color: #545467;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
